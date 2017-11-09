@@ -42,14 +42,14 @@ function renderCards(repo) {
       ),
       m('figcaption.ncss-container.mt4-sm',
         m('.ncss-row', [
-          m('.ncss-col-sm-8.u-va-m.u-align-left',
+          m('.ncss-col-sm-10.u-va-m.u-align-left',
             m('a.project-title.u-sm-b.ncss-brand', {
                 href: repo.html_url
               },
               repo.name.toUpperCase().replace('NIKE-INC.', '')
             )
           ),
-          m('.ncss-col-sm-4.u-va-m.u-align-right',
+          m('.ncss-col-sm-2.u-va-m.u-align-right',
             m(`span.rounded.ncss-brand.bg-accent.text-color-white.prl2-sm.u-uppercase${labelLanguage}`, repo.language)
           )
         ])
