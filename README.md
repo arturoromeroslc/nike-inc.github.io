@@ -14,6 +14,7 @@ To Build
 =======
 
 ```sh
+npm install
 npm run build-min-all
 ```
 

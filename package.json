@@ -42,15 +42,20 @@
     "uglifyjs": "^2.4.10"
   },
   "dependencies": {
-    "bootstrap-material-design": "github:fezvrasta/bootstrap-material-design#v4-dev",
+    "bootstrap-material-design": "^4.0.0-beta.4",
     "github-api": "^2.1.0",
     "mithril": "^0.2.5"
   },
   "browserify": {
     "transform": [
-      ["babelify", {
-        "presets": ["es2015"]
-      }]
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
     ]
   }
 }
