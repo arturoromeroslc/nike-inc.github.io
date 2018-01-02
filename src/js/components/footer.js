@@ -121,7 +121,7 @@ const footer = {
           m(".ncss-col-sm-6.pt2-sm.pb2-sm.u-va-m",
             m("small.text-color-grey", [
               m.trust("&copy;"),
-              " 2017 Nike, Inc. All Rights Reserved"
+              ` ${(new Date()).getUTCFullYear()} Nike, Inc. All Rights Reserved`
             ])
           ),
           m(".ncss-col-sm-6.u-va-m.u-align-right", [

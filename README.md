@@ -42,6 +42,6 @@ Changelog
 LICENSE
 ------------
 
-Copyright 2017 Nike, Inc.
+Copyright 2018 Nike, Inc.
 
 Released under the MIT license: https://opensource.org/licenses/MIT
